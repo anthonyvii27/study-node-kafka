@@ -1,0 +1,16 @@
+{
+  "name": "microservice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "sucrase-node src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "sucrase": "^3.20.3"
+  },
+  "dependencies": {
+    "kafkajs": "^1.15.0"
+  }
+}
